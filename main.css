@@ -296,14 +296,17 @@ section:nth-child(2n + 1) {
 
 #portfolio-container {
     box-sizing: border-box;
+    
     display: flex;
     flex-wrap: wrap;
     padding: 0 50px;
+
     margin-bottom: 20px;
     justify-content: space-around;
 }
 
 .portfolio-image-container {
+    border-radius: 10%;
     max-width: 300px;
     overflow: hidden;
     margin: 30px;
